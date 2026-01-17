@@ -1,0 +1,13 @@
+{
+    "setup_fee": 10,
+    "vat_included": 0,
+    "bonuses":
+        {
+            "free_transfer": 1,
+            "early_booking_discount_percent": 10,
+            "membership_discount_percent": 10
+        },
+    "custom_terms": "",
+    "comment": ""
+}
+
