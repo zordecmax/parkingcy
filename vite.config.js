@@ -14,7 +14,6 @@ export default defineConfig({
                 "resources/js/home.js",
                 "resources/js/app.js",
                 "resources/js/parkings/edit.js",
-                "resources/scss/airport.scss",
                 "resources/scss/parkings/reservations/index.scss",
                 "resources/scss/parkings/success-fail/fail.scss",
                 "resources/scss/parkings/success-fail/success.scss",

@@ -1,0 +1,267 @@
+@import "./app.scss";
+
+.parking-box-content
+{
+height: 247px!important;
+}
+.btn-close-modal {
+    filter: invert(1); /* Invert colors to make it white */
+}
+.total-price-modal
+{
+    font-size: 24px;
+    font-weight: bold;
+}
+.parking-box-content
+{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.modal-header
+{
+    background-color:#1976D2;
+    color:white;
+}
+.modal-item
+{
+   padding: 0px;
+   .general
+   {
+  height: 400px;     
+  overflow-y: auto;
+  overflow-x: hidden;      
+   }
+}
+@media (max-width: 576px) {
+  .modal-content
+  {
+    padding-bottom:90px;
+  }
+    .modal-footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid #dee2e6;
+        padding: 10px 0;
+        box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+        z-index: 1000; /* Поверх всего остального контента */
+        background-color: #ffffff;
+    }
+    .general
+    {
+   height:unset!important;   
+    }
+    .modal-dialog {
+      margin : 0;//mobile
+    }
+    .box {
+        max-width: unset!important; /* Используем unset для полного удаления стиля */
+
+    }
+    .img-item
+    {
+        max-width: unset!important;
+    }
+
+  }
+
+
+.image-list-item {
+    position: relative;
+    display: inline-block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: start;
+}
+
+.image-list-item:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.tooltip {
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+/* Стили для иконок */
+.image-list-item svg {
+    width: 24px;
+    height: 24px;
+    fill: #757575;
+}
+
+.information-title
+{
+    font-size: 18px;
+    font-weight: 700; 
+}
+.information-description
+{
+    font-size: 16px;
+    padding-top: 10px;
+    text-align: start;
+    
+}
+ .information-item 
+ {
+    font-weight: 600; 
+    padding-top: 16px;
+ }
+.general
+{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.line {
+    width: 100%; /* Ширина линии */
+    height: 1px; /* Высота линии */
+    background-color: black; /* Цвет линии */
+}
+
+.rating
+{
+    padding:5px 10px 5px 10px;
+    font-size: 22px;
+}
+
+.modal-title
+{
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.button-more-info
+{
+    border-radius: 0 0 5px 5px!important;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.without-booking {
+    font-size: 15px;
+  
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.without-booking .price {
+    color: red;
+    font-size: 15px;
+
+}
+.box {
+    max-width: 277px;
+    
+}
+
+    .price
+    {
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .cash
+    {
+        font-size: 11px;
+        padding-top: 10px;
+        font-weight: bold;
+    }
+    .transfer-time
+    {
+        padding-top: 10px;
+    }
+    .total-cost
+    {
+        font-size: 12px;
+
+       padding: 6px 10px;
+       background-color: #f6f6f6;
+       span
+       {
+
+        font-weight: bold;
+
+       }
+    }
+    .transfer-time-description
+    {
+        font-size:12px;
+    }
+    .transfer-title{
+        font-weight: bold;
+
+    }
+    .car-svg
+    {
+        padding-right: 10px;
+    }
+    .image-list-item
+    {  
+         margin-right: 5px; /* Отступ между изображениями */
+    display: inline-block; /* Размещаем элементы в ряд */
+        padding-top: 5px;
+    }
+    .image-list {
+    list-style: none; /* Убираем маркеры списка */
+
+    padding-top: 10px;    
+    margin: 0; /* Убираем внутренний отступ */
+}
+
+
+    ul {
+    list-style-type: none;
+}
+    .info-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Центрирует содержимое по горизонтали */
+    padding-bottom: 4px;
+    .reviews
+    {
+        padding-top: 4px;
+        font-size: 12px;
+    }
+}
+    .info-box-title
+    {
+        font-weight: bold;
+        padding:20px;
+        background: #1976D2;
+        color:white;
+        border-radius: 5px 5px 0 0;
+
+    }
+
+.exclusive
+{
+    font-weight: bold;
+    background-color: #F6F6F6;
+    
+ .exclusive-title
+ {
+  padding-top: 10px;
+ }
+ .exclusive-item
+ {
+    padding-bottom: 9px;
+ }
+}
+.img-item
+{
+    max-width: 274px;
+    max-height: 120px;
+}

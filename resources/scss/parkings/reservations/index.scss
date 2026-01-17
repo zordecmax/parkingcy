@@ -1,0 +1,25 @@
+@import "..//../app.scss";
+.modal-scroll
+{
+  height: 600px;     
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+@media (max-width:576px) {
+    #table1 tr td.button-line {
+    border-bottom: 3px solid #000; /* Чёрный цвет для яркости */
+}
+#table1 td {
+    display: block;
+    width: 100%;
+}
+#table1 thead {
+    display: none;
+}
+#table1 td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    display: block;
+}
+
+}

@@ -1,0 +1,15 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.gm-style-iw-chr{
+    button{
+        width: 38px !important;
+        height: 15px !important;
+    }
+}

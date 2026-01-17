@@ -1,0 +1,25 @@
+@import "..//..//app.scss";
+
+.fail-section{
+    padding-top: 150px;
+    .have-question
+    {
+      font-size: 20px;
+    }
+    .fail-icon {
+        font-size: 96px;
+        height: 96px;
+        width: 96px; 
+        display: inline-block;
+        color: inherit;
+        fill: currentColor;
+        line-height: 1;
+        flex-shrink: 0;
+        max-width: initial;
+    }
+    .fail-container {
+    width: calc(100% - 3rem);
+    max-width: 32rem;
+    text-align: center;
+    }
+  }
