@@ -1,0 +1,71 @@
+{
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff": {
+    "file": "assets/bootstrap-icons.BOrJxbIo.woff",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff"
+  },
+  "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2": {
+    "file": "assets/bootstrap-icons.BtvjY1KL.woff2",
+    "src": "node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff2"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.Cj0vNXJb.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/home.js": {
+    "file": "assets/home.BrzeoQkY.js",
+    "name": "home",
+    "src": "resources/js/home.js",
+    "isEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ]
+  },
+  "resources/js/parkings/edit.js": {
+    "file": "assets/edit.Dir-QVOq.js",
+    "name": "edit",
+    "src": "resources/js/parkings/edit.js",
+    "isEntry": true
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app.CEt2iCjo.css",
+    "src": "resources/sass/app.scss",
+    "isEntry": true
+  },
+  "resources/scss/airport.scss": {
+    "file": "assets/airport.DLDtCRgf.css",
+    "src": "resources/scss/airport.scss",
+    "isEntry": true
+  },
+  "resources/scss/app.scss": {
+    "file": "assets/app.DwAHUYox.css",
+    "src": "resources/scss/app.scss",
+    "isEntry": true
+  },
+  "resources/scss/home.scss": {
+    "file": "assets/home.C7loqq-q.css",
+    "src": "resources/scss/home.scss",
+    "isEntry": true
+  },
+  "resources/scss/parkings/reservations/index.scss": {
+    "file": "assets/index.B-38vp0E.css",
+    "src": "resources/scss/parkings/reservations/index.scss",
+    "isEntry": true
+  },
+  "resources/scss/parkings/success-fail/fail.scss": {
+    "file": "assets/fail.CPeR5dGp.css",
+    "src": "resources/scss/parkings/success-fail/fail.scss",
+    "isEntry": true
+  },
+  "resources/scss/parkings/success-fail/success.scss": {
+    "file": "assets/success.BhK_HdrP.css",
+    "src": "resources/scss/parkings/success-fail/success.scss",
+    "isEntry": true
+  },
+  "resources/scss/search.scss": {
+    "file": "assets/search.DGKltamv.css",
+    "src": "resources/scss/search.scss",
+    "isEntry": true
+  }
+}

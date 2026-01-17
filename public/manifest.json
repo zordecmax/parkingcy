@@ -1,0 +1,17 @@
+{
+    "name": "PARKING.CY",
+    "short_name": "PARKING",
+    "start_url": "/index.php",
+    "background_color": "#ffffff",
+    "description": "Welcome to Parking Cyprus",
+    "display": "fullscreen",
+    "theme_color": "#0469b7",
+    "icons": [
+        {
+            "src": "images/logo.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
